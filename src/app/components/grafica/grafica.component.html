@@ -1,0 +1,35 @@
+<h1>Grafica dinámica</h1>
+<hr />
+
+<div class="contenedor">
+  <div class="grafica-card">
+    <canvas
+      baseChart
+      width="400"
+      height="400"
+      [datasets]="lineChartData"
+      [labels]="lineChartLabels"
+      [chartType]="'line'"
+    ></canvas>
+  </div>
+
+  <div class="acciones-card">
+    <h3>Actualizar ventas</h3>
+
+    <button class="btn btn-enero" (click)="incrementar('enero', 10)">
+      Enero +10
+    </button>
+
+    <button class="btn btn-febrero" (click)="incrementar('febrero', 20)">
+      Febrero +20
+    </button>
+
+    <button class="btn btn-marzo" (click)="incrementar('marzo', 15)">
+      Marzo +15
+    </button>
+
+    <button class="btn btn-abril" (click)="incrementar('abril', 30)">
+      Abril +30
+    </button>
+  </div>
+</div>
