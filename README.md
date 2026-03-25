@@ -1,5 +1,7 @@
 # Graficas
 
+![graficas-sockets](https://github.com/user-attachments/assets/d75edbb3-e9ea-4dcc-a4e6-1ed0835fe9b9)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
 
 ## Development server
